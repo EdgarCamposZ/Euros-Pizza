@@ -56,6 +56,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="PepperoniG">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Pepperoni Grande"/>
       </Properties>
       <Constraints>
@@ -66,6 +69,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="CocaCola3L">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Coca Cola 3 Litros"/>
       </Properties>
       <Constraints>
@@ -76,6 +82,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="CarneG">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Carne Grande"/>
       </Properties>
       <Constraints>
@@ -86,6 +95,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="SupremaG2">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Suprema Grande"/>
       </Properties>
       <Constraints>
@@ -96,6 +108,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="QuesoG">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Queso Grande"/>
       </Properties>
       <Constraints>
@@ -106,6 +121,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="Palitroques">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Palitroques"/>
       </Properties>
       <Constraints>
@@ -116,6 +134,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="PanConAjo">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="PanConAjo"/>
       </Properties>
       <Constraints>
@@ -126,6 +147,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="PepperoniP">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Pepperoni Personal"/>
       </Properties>
       <Constraints>
@@ -136,6 +160,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="SupremaP">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Suprema Personal"/>
       </Properties>
       <Constraints>
@@ -146,6 +173,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="CarneP">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Carne Personal"/>
       </Properties>
       <Constraints>
@@ -156,6 +186,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="QuesoP">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Queso Personal"/>
       </Properties>
       <Constraints>
@@ -166,6 +199,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="PizzaCalzone">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="PizzaCalzone"/>
       </Properties>
       <Constraints>
@@ -176,6 +212,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="Pepsi16Oz">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Pepsi 16 oz"/>
       </Properties>
       <Constraints>
@@ -186,6 +225,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="CocaCola16oz">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Coca Cola 16 oz"/>
       </Properties>
       <Constraints>
@@ -196,6 +238,9 @@
     </Component>
     <Component class="javax.swing.JLabel" name="TeFrambuesa16oz">
       <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Te Frambuesa 16 oz"/>
       </Properties>
       <Constraints>

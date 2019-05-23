@@ -1,6 +1,6 @@
 package eurospizza;
 
-public class Variables {
+public class Variables{
     
     int PG, SG, CG, QG, P, PCA, PP, SP, CP, QP, PC, Poz, Coz, Toz, CL;
     
@@ -22,4 +22,5 @@ public class Variables {
                 Toz = 0;
                 CL = 0;
             }
+    
 }

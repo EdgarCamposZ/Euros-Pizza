@@ -1,13 +1,11 @@
 package eurospizza;
 
-public class Menu2 extends javax.swing.JFrame {
+public class Menu2 extends javax.swing.JFrame{
 
     public Menu2() {
-        initComponents();
-        this.setLocationRelativeTo(null);
+        initComponents(); 
         this.setSize(642, 477);
-        this.setTitle("EUROS PIZZA        PARA LLEVAR");   
-        
+        this.setLocationRelativeTo(null);
     }
 
     @SuppressWarnings("unchecked")
@@ -67,62 +65,77 @@ public class Menu2 extends javax.swing.JFrame {
         getContentPane().add(Regresar);
         Regresar.setBounds(507, 390, 90, 32);
 
+        PepperoniG.setForeground(new java.awt.Color(153, 153, 153));
         PepperoniG.setText("Pepperoni Grande");
         getContentPane().add(PepperoniG);
         PepperoniG.setBounds(10, 40, 110, 20);
 
+        CocaCola3L.setForeground(new java.awt.Color(153, 153, 153));
         CocaCola3L.setText("Coca Cola 3 Litros");
         getContentPane().add(CocaCola3L);
         CocaCola3L.setBounds(430, 320, 110, 20);
 
+        CarneG.setForeground(new java.awt.Color(153, 153, 153));
         CarneG.setText("Carne Grande");
         getContentPane().add(CarneG);
         CarneG.setBounds(420, 40, 80, 20);
 
+        SupremaG2.setForeground(new java.awt.Color(153, 153, 153));
         SupremaG2.setText("Suprema Grande");
         getContentPane().add(SupremaG2);
         SupremaG2.setBounds(220, 40, 110, 20);
 
+        QuesoG.setForeground(new java.awt.Color(153, 153, 153));
         QuesoG.setText("Queso Grande");
         getContentPane().add(QuesoG);
         QuesoG.setBounds(10, 110, 110, 20);
 
+        Palitroques.setForeground(new java.awt.Color(153, 153, 153));
         Palitroques.setText("Palitroques");
         getContentPane().add(Palitroques);
         Palitroques.setBounds(220, 110, 110, 20);
 
+        PanConAjo.setForeground(new java.awt.Color(153, 153, 153));
         PanConAjo.setText("PanConAjo");
         getContentPane().add(PanConAjo);
         PanConAjo.setBounds(420, 110, 110, 20);
 
+        PepperoniP.setForeground(new java.awt.Color(153, 153, 153));
         PepperoniP.setText("Pepperoni Personal");
         getContentPane().add(PepperoniP);
         PepperoniP.setBounds(10, 180, 120, 20);
 
+        SupremaP.setForeground(new java.awt.Color(153, 153, 153));
         SupremaP.setText("Suprema Personal");
         getContentPane().add(SupremaP);
         SupremaP.setBounds(220, 180, 110, 20);
 
+        CarneP.setForeground(new java.awt.Color(153, 153, 153));
         CarneP.setText("Carne Personal");
         getContentPane().add(CarneP);
         CarneP.setBounds(420, 180, 110, 20);
 
+        QuesoP.setForeground(new java.awt.Color(153, 153, 153));
         QuesoP.setText("Queso Personal");
         getContentPane().add(QuesoP);
         QuesoP.setBounds(10, 250, 110, 20);
 
+        PizzaCalzone.setForeground(new java.awt.Color(153, 153, 153));
         PizzaCalzone.setText("PizzaCalzone");
         getContentPane().add(PizzaCalzone);
         PizzaCalzone.setBounds(220, 250, 110, 20);
 
+        Pepsi16Oz.setForeground(new java.awt.Color(153, 153, 153));
         Pepsi16Oz.setText("Pepsi 16 oz");
         getContentPane().add(Pepsi16Oz);
         Pepsi16Oz.setBounds(420, 250, 110, 20);
 
+        CocaCola16oz.setForeground(new java.awt.Color(153, 153, 153));
         CocaCola16oz.setText("Coca Cola 16 oz");
         getContentPane().add(CocaCola16oz);
         CocaCola16oz.setBounds(20, 320, 110, 20);
 
+        TeFrambuesa16oz.setForeground(new java.awt.Color(153, 153, 153));
         TeFrambuesa16oz.setText("Te Frambuesa 16 oz");
         getContentPane().add(TeFrambuesa16oz);
         TeFrambuesa16oz.setBounds(220, 320, 120, 20);
@@ -286,93 +299,93 @@ public class Menu2 extends javax.swing.JFrame {
     }//GEN-LAST:event_RegresarActionPerformed
 
     private void Coc3StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_Coc3StateChanged
-        Integer valor = (Integer)Coc3.getValue();
+        Integer valorCoc3 = (Integer)Coc3.getValue();
         Variables V = new Variables();
-        V.CL = valor;
+        V.CL = (int) (valorCoc3 * 2.50);
     }//GEN-LAST:event_Coc3StateChanged
 
     private void PepperoniGrandeStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_PepperoniGrandeStateChanged
-        Integer valor = (Integer)PepperoniGrande.getValue();
+        Integer valorPG = (Integer)PepperoniGrande.getValue();
         Variables V = new Variables();
-        V.PG = valor;
+        V.PG = valorPG * 6;
     }//GEN-LAST:event_PepperoniGrandeStateChanged
 
     private void CarneGrandeStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_CarneGrandeStateChanged
-        Integer valor = (Integer)CarneGrande.getValue();
+        Integer valorCG = (Integer)CarneGrande.getValue();
         Variables V = new Variables();
-        V.CG = valor;
+        V.CG = valorCG * 6;
     }//GEN-LAST:event_CarneGrandeStateChanged
 
     private void QuesoGrandeStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_QuesoGrandeStateChanged
-        Integer valor = (Integer)QuesoGrande.getValue();
+        Integer valorQG = (Integer)QuesoGrande.getValue();
         Variables V = new Variables();
-        V.QG = valor;
+        V.QG = valorQG * 6;
     }//GEN-LAST:event_QuesoGrandeStateChanged
 
     private void PaliStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_PaliStateChanged
-        Integer valor = (Integer)Pali.getValue();
+        Integer valorP = (Integer)Pali.getValue();
         Variables V = new Variables();
-        V.P = valor;
+        V.P = valorP * 3;
     }//GEN-LAST:event_PaliStateChanged
 
     private void PanCStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_PanCStateChanged
-        Integer valor = (Integer)PanC.getValue();
+        Integer valorPCA = (Integer)PanC.getValue();
         Variables V = new Variables();
-        V.PCA = valor;
+        V.PCA = valorPCA * 4;
     }//GEN-LAST:event_PanCStateChanged
 
     private void PepperoniPersonalStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_PepperoniPersonalStateChanged
-        Integer valor = (Integer)PepperoniPersonal.getValue();
+        Integer valorPP = (Integer)PepperoniPersonal.getValue();
         Variables V = new Variables();
-        V.PP = valor;
+        V.PP = valorPP * 3;
     }//GEN-LAST:event_PepperoniPersonalStateChanged
 
     private void SupremaPersonalStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_SupremaPersonalStateChanged
-        Integer valor = (Integer)SupremaPersonal.getValue();
+        Integer valorSP = (Integer)SupremaPersonal.getValue();
         Variables V = new Variables();
-        V.SP = valor;
+        V.SP = valorSP * 3;
     }//GEN-LAST:event_SupremaPersonalStateChanged
 
     private void CarnePersonalStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_CarnePersonalStateChanged
-        Integer valor = (Integer)CarnePersonal.getValue();
+        Integer valorCP = (Integer)CarnePersonal.getValue();
         Variables V = new Variables();
-        V.CP = valor;
+        V.CP = valorCP * 3;
     }//GEN-LAST:event_CarnePersonalStateChanged
 
     private void QuesoPersonalStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_QuesoPersonalStateChanged
-        Integer valor = (Integer)QuesoPersonal.getValue();
+        Integer valorQP = (Integer)QuesoPersonal.getValue();
         Variables V = new Variables();
-        V.QP = valor;
+        V.QP = valorQP * 3;
     }//GEN-LAST:event_QuesoPersonalStateChanged
 
     private void PizzaCStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_PizzaCStateChanged
-        Integer valor = (Integer)PizzaC.getValue();
+        Integer valorPC = (Integer)PizzaC.getValue();
         Variables V = new Variables();
-        V.PC = valor;
+        V.PC = valorPC * 5;
     }//GEN-LAST:event_PizzaCStateChanged
 
     private void Pep16StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_Pep16StateChanged
-        Integer valor = (Integer)Pep16.getValue();
+        Integer valorP16 = (Integer)Pep16.getValue();
         Variables V = new Variables();
-        V.Poz = valor;
+        V.Poz = valorP16 * 1;
     }//GEN-LAST:event_Pep16StateChanged
 
     private void Coc16StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_Coc16StateChanged
-        Integer valor = (Integer)Coc16.getValue();
+        Integer valorCoc16 = (Integer)Coc16.getValue();
         Variables V = new Variables();
-        V.Coz = valor;
+        V.Coz = valorCoc16 * 1;
     }//GEN-LAST:event_Coc16StateChanged
 
     private void Te16StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_Te16StateChanged
-        Integer valor = (Integer)Te16.getValue();
+        Integer valorTe16 = (Integer)Te16.getValue();
         Variables V = new Variables();
-        V.Toz = valor;
+        V.Toz = valorTe16 * 1;
     }//GEN-LAST:event_Te16StateChanged
 
     private void SupremaGrandeStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_SupremaGrandeStateChanged
-        Integer valor = (Integer)SupremaGrande.getValue();
+        Integer valorSG = (Integer)SupremaGrande.getValue();
         Variables V = new Variables();
-        V.SG = valor;
+        V.SG = valorSG * 1;
     }//GEN-LAST:event_SupremaGrandeStateChanged
 
     private void GuardarStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_GuardarStateChanged

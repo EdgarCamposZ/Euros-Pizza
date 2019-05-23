@@ -4,9 +4,8 @@ public class MenuDeInicio extends javax.swing.JFrame {
 
     public MenuDeInicio() {
         initComponents();
-        this.setLocationRelativeTo(null);
         this.setSize(642, 477);
-        this.setTitle("EUROS PIZZA");
+        this.setLocationRelativeTo(null);
     }
 
     @SuppressWarnings("unchecked")
@@ -92,7 +91,7 @@ public class MenuDeInicio extends javax.swing.JFrame {
     }//GEN-LAST:event_LlevarActionPerformed
 
     private void AquiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AquiActionPerformed
-        Menu1 M1 = new Menu1();
+        Menu2 M1 = new Menu2();
         M1.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_AquiActionPerformed
